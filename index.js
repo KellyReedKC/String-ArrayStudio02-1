@@ -30,8 +30,6 @@ console.log("\n")
 
 console.log(protoArray1.split(",").reverse().join());
 console.log("\n")
-console.log(protoArray4.split(",").reverse().join());
-console.log("\n")
 
 //c) If the string uses semicolons to separate the words, split it into an array, alphabetize the entries, and then join the array into a new comma separated string.
 
@@ -41,9 +39,9 @@ console.log("\n");
 //d) If the string uses spaces to separate the words, split it into an array, reverse alphabetize the entries, and then join the array into a new space separated string.
 
 console.log(protoArray3.split(" ").sort().reverse().join(" "));
-console.log("\n")
-console.log(protoArray4.split(" ").sort().reverse().join(" "));
 console.log("\n");
 
 //e) If the string uses ‘comma spaces’ to separate the list, modify your code to produce the same result as part “b”, making sure that the extra spaces are NOT part of the final string.
 
+console.log(protoArray4.split(", ").reverse().join());
+console.log("\n")
